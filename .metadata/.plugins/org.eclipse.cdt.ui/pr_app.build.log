@@ -1,11 +1,16 @@
-20:04:59 **** Incremental Build of configuration Debug for project pr_app ****
+23:51:34 **** Incremental Build of configuration Debug for project pr_app ****
 make all 
 'Building target: pr_app.elf'
 'Invoking: MicroBlaze gcc linker'
 mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "pr_app.elf"  ./src/pr_tftp_lib/pr_tftp.o  ./src/main.o ./src/platform.o ./src/platform_mb.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
-c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: cannot find -llwip4
-collect2.exe: error: ld returned 1 exit status
-make: *** [makefile:39: pr_app.elf] Error 1
+'Finished building target: pr_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size pr_app.elf  |tee "pr_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 281400	   1976	1074450840	1074734216	400f2488	pr_app.elf
+'Finished building: pr_app.elf.size'
+' '
 
-20:05:00 Build Finished (took 377ms)
+23:51:35 Build Finished (took 828ms)
 
