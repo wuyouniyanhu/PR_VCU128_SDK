@@ -1,0 +1,6 @@
+17:56:44 INFO  : Registering command handlers for SDK TCF services
+17:56:46 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\HQ_home\Desktop\PR_VCU128_SDK_new\temp_xsdb_launch_script.tcl
+17:56:49 INFO  : XSCT server has started successfully.
+17:56:49 INFO  : Successfully done setting XSCT server connection channel  
+17:56:49 INFO  : Successfully done setting SDK workspace  
+17:58:53 INFO  : Project 'top_hw_platform_new' created. You can now create BSPs and application projects targeting this hardware platform.
