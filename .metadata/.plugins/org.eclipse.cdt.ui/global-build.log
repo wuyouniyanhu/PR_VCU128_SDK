@@ -328,3 +328,1760 @@ In file included from ../src/pr_tftp_lib/pr_tftp.h:37,
  }
  ^
 make: *** [src/pr_tftp_lib/subdir.mk:20: src/pr_tftp_lib/pr_tftp.o] Error 1
+20:00:31 **** Clean-only build of configuration Debug for project pr_app ****
+make clean 
+rm -rf  ./src/pr_tftp_lib/pr_tftp.o  ./src/main.o ./src/platform.o ./src/platform_mb.o  ./src/pr_tftp_lib/pr_tftp.d  ./src/main.d ./src/platform.d ./src/platform_mb.d  pr_app.elf.size  pr_app.elf
+' '
+20:00:32 **** Clean-only build of project pr_bsp ****
+make -k clean 
+make -C microblaze_0/libsrc/axidma_v9_9/src -s clean 
+make -C microblaze_0/libsrc/axiethernet_v5_9/src -s clean 
+make -C microblaze_0/libsrc/bram_v4_3/src -s clean 
+make -C microblaze_0/libsrc/cpu_v2_9/src -s clean 
+make -C microblaze_0/libsrc/hwicap_v11_2/src -s clean 
+make -C microblaze_0/libsrc/intc_v3_9/src -s clean 
+make -C microblaze_0/libsrc/lwip141_v1_6/src -s clean 
+make -C microblaze_0/libsrc/spi_v4_4/src -s clean 
+make -C microblaze_0/libsrc/standalone_v7_0/src -s clean 
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s clean 
+make -C microblaze_0/libsrc/uartns550_v3_5/src -s clean 
+rm -f microblaze_0/lib/libxil.a
+20:00:33 **** Build of project pr_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/axidma_v9_9/src"
+make -C microblaze_0/libsrc/axidma_v9_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/axiethernet_v5_9/src"
+make -C microblaze_0/libsrc/axiethernet_v5_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/hwicap_v11_2/src"
+make -C microblaze_0/libsrc/hwicap_v11_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/lwip141_v1_6/src"
+make -C microblaze_0/libsrc/lwip141_v1_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartns550_v3_5/src"
+make -C microblaze_0/libsrc/uartns550_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/axidma_v9_9/src"
+make -C microblaze_0/libsrc/axidma_v9_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axidma"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/axiethernet_v5_9/src"
+make -C microblaze_0/libsrc/axiethernet_v5_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axiethernet"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/hwicap_v11_2/src"
+make -C microblaze_0/libsrc/hwicap_v11_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling hwicap"
+"Running Make libs in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/lwip141_v1_6/src"
+make -C microblaze_0/libsrc/lwip141_v1_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling lwip src and adapter files"
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/init.c:39:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/init.c:39:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/mem.c:56:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/mem.c:56:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/mem.c:56:
+lwip-1.4.1/src/core/mem.c: In function 'plug_holes':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/mem.c:241:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("plug_holes: mem >= ram", (u8_t *)mem >= ram);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/mem.c:242:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("plug_holes: mem < ram_end", (u8_t *)mem < (u8_t *)ram_end);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/mem.c:243:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("plug_holes: mem->used == 0", mem->used == 0);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/mem.c:246:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("plug_holes: mem->next <= MEM_SIZE_ALIGNED", mem->next <= MEM_SIZE_ALIGNED);
+   ^~~~~~~~~~~
+lwip-1.4.1/src/core/mem.c: In function 'mem_init':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/mem.c:278:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("Sanity check alignment",
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/mem.c:300:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("failed to create mem_mutex", 0);
+     ^~~~~~~~~~~
+lwip-1.4.1/src/core/mem.c: In function 'mem_free':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/mem.c:320:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("mem_free: sanity check alignment", (((mem_ptr_t)rmem) & (MEM_ALIGNMENT-1)) == 0);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/mem.c:322:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("mem_free: legal memory", (u8_t *)rmem >= (u8_t *)ram &&
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/mem.c:339:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("mem_free: mem->used", mem->used);
+   ^~~~~~~~~~~
+lwip-1.4.1/src/core/mem.c: In function 'mem_trim':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/mem.c:390:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("mem_trim: legal memory", (u8_t *)rmem >= (u8_t *)ram &&
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/mem.c:408:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("mem_trim can only shrink memory", newsize <= size);
+   ^~~~~~~~~~~
+lwip-1.4.1/src/core/mem.c: In function 'mem_malloc':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/mem.c:610:11: note: in expansion of macro 'LWIP_ASSERT'
+           LWIP_ASSERT("mem_malloc: !lfree->used", ((lfree == ram_end) || (!lfree->used)));
+           ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/mem.c:614:9: note: in expansion of macro 'LWIP_ASSERT'
+         LWIP_ASSERT("mem_malloc: allocated memory not above ram_end.",
+         ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/mem.c:616:9: note: in expansion of macro 'LWIP_ASSERT'
+         LWIP_ASSERT("mem_malloc: allocated memory properly aligned.",
+         ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/mem.c:618:9: note: in expansion of macro 'LWIP_ASSERT'
+         LWIP_ASSERT("mem_malloc: sanity check alignment",
+         ^~~~~~~~~~~
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/memp.c:41:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/memp.c:41:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/memp.c:41:
+lwip-1.4.1/src/core/memp.c: In function 'memp_malloc':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/memp.c:415:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("memp_malloc: memp properly aligned",
+     ^~~~~~~~~~~
+lwip-1.4.1/src/core/memp.c: In function 'memp_free':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/memp.c:443:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("memp_free: mem properly aligned",
+   ^~~~~~~~~~~
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/netif.c:39:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/netif.c:39:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/netif.c:39:
+lwip-1.4.1/src/core/netif.c: In function 'netif_add':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/netif.c:143:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("No init function given", init != NULL);
+   ^~~~~~~~~~~
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/pbuf.c:64:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/pbuf.c:64:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/pbuf.c:64:
+lwip-1.4.1/src/core/pbuf.c: In function 'pbuf_alloc':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:232:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("pbuf_alloc: bad pbuf layer", 0);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:250:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("pbuf_alloc: pbuf p->payload properly aligned",
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:256:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("check p->payload + p->len does not overflow pbuf",
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:259:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("PBUF_POOL_BUFSIZE must be bigger than MEM_ALIGNMENT",
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:286:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("rem_len < max_u16_t", rem_len < 0xffff);
+       ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:291:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("pbuf_alloc: pbuf q->payload properly aligned",
+       ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:293:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("check p->payload + p->len does not overflow pbuf",
+       ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:318:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("pbuf_alloc: pbuf->payload properly aligned",
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:340:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("pbuf_alloc: erroneous type", 0);
+     ^~~~~~~~~~~
+lwip-1.4.1/src/core/pbuf.c: In function 'pbuf_alloced_custom':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:391:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("pbuf_alloced_custom: bad pbuf layer", 0);
+     ^~~~~~~~~~~
+lwip-1.4.1/src/core/pbuf.c: In function 'pbuf_realloc':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:436:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("pbuf_realloc: p != NULL", p != NULL);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:437:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("pbuf_realloc: sane p->type", p->type == PBUF_POOL ||
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:460:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("grow < max_u16_t", grow < 0xffff);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:464:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("pbuf_realloc: q != NULL", q != NULL);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:474:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("mem_trim returned q == NULL", q != NULL);
+     ^~~~~~~~~~~
+lwip-1.4.1/src/core/pbuf.c: In function 'pbuf_header':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:517:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("p != NULL", p != NULL);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:571:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("bad pbuf type", 0);
+     ^~~~~~~~~~~
+lwip-1.4.1/src/core/pbuf.c: In function 'pbuf_free':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:625:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("p != NULL", p != NULL);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:635:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("pbuf_free: sane type",
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:650:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("pbuf_free: p->ref > 0", p->ref > 0);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:664:9: note: in expansion of macro 'LWIP_ASSERT'
+         LWIP_ASSERT("pc->custom_free_function != NULL", pc->custom_free_function != NULL);
+         ^~~~~~~~~~~
+lwip-1.4.1/src/core/pbuf.c: In function 'pbuf_cat':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:758:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("p->tot_len == p->len (of last pbuf in chain)", p->tot_len == p->len);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:759:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("p->next == NULL", p->next == NULL);
+   ^~~~~~~~~~~
+lwip-1.4.1/src/core/pbuf.c: In function 'pbuf_dechain':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:812:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("p->tot_len == p->len + q->tot_len", q->tot_len == p->tot_len - p->len);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:829:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("p->tot_len == p->len", p->tot_len == p->len);
+   ^~~~~~~~~~~
+lwip-1.4.1/src/core/pbuf.c: In function 'pbuf_copy':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:877:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("offset_to <= p_to->len", offset_to <= p_to->len);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:878:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("offset_from <= p_from->len", offset_from <= p_from->len);
+     ^~~~~~~~~~~
+lwip-1.4.1/src/core/pbuf.c: In function 'pbuf_take':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:982:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("pbuf_take: invalid pbuf", p != NULL);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:993:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("did not copy all data", total_copy_len == 0 && copied_total == len);
+   ^~~~~~~~~~~
+lwip-1.4.1/src/core/pbuf.c: In function 'pbuf_coalesce':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/pbuf.c:1023:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("pbuf_copy failed", err == ERR_OK);
+   ^~~~~~~~~~~
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/raw.c:41:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/raw.c:41:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/raw.c:41:
+lwip-1.4.1/src/core/raw.c: In function 'raw_sendto':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/raw.c:231:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("Can't restore header we just removed!", 0);
+       ^~~~~~~~~~~
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/stats.c:39:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/stats.c:39:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/def.c:39:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/def.c:39:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from ../../../include/lwip/timers.h:36,
+                 from lwip-1.4.1/src/core/timers.c:44:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from ../../../include/lwip/timers.h:36,
+                 from lwip-1.4.1/src/core/timers.c:44:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/sys.c:39:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/sys.c:39:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/netif/etharp.c:46:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/netif/etharp.c:46:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/netif/etharp.c:46:
+lwip-1.4.1/src/netif/etharp.c: In function 'free_etharp_q':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:158:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("q != NULL", q != NULL);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:159:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("q->p != NULL", q->p != NULL);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:163:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("r->p != NULL", (r->p != NULL));
+     ^~~~~~~~~~~
+lwip-1.4.1/src/netif/etharp.c: In function 'etharp_find_entry':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:299:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("state == ETHARP_STATE_PENDING || state >= ETHARP_STATE_STABLE",
+       ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:369:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("arp_table[i].q == NULL", arp_table[i].q == NULL);
+       ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:387:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("i < ARP_TABLE_SIZE", i < ARP_TABLE_SIZE);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:391:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("i < ARP_TABLE_SIZE", i < ARP_TABLE_SIZE);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:392:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("arp_table[i].state == ETHARP_STATE_EMPTY",
+   ^~~~~~~~~~~
+lwip-1.4.1/src/netif/etharp.c: In function 'etharp_send_ip':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:419:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("netif->hwaddr_len must be the same as ETHARP_HWADDR_LEN for etharp!",
+   ^~~~~~~~~~~
+lwip-1.4.1/src/netif/etharp.c: In function 'etharp_update_arp_entry':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:451:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("netif->hwaddr_len == ETHARP_HWADDR_LEN", netif->hwaddr_len == ETHARP_HWADDR_LEN);
+   ^~~~~~~~~~~
+lwip-1.4.1/src/netif/etharp.c: In function 'etharp_find_addr':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:608:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("eth_ret != NULL && ip_ret != NULL",
+   ^~~~~~~~~~~
+lwip-1.4.1/src/netif/etharp.c: In function 'etharp_arp_input':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:785:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("netif->hwaddr_len must be the same as ETHARP_HWADDR_LEN for etharp!",
+       ^~~~~~~~~~~
+lwip-1.4.1/src/netif/etharp.c: In function 'etharp_output_to_arp_index':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:844:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("arp_table[arp_idx].state >= ETHARP_STATE_STABLE",
+   ^~~~~~~~~~~
+lwip-1.4.1/src/netif/etharp.c: In function 'etharp_output':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:885:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("netif != NULL", netif != NULL);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:886:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("q != NULL", q != NULL);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:887:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("ipaddr != NULL", ipaddr != NULL);
+   ^~~~~~~~~~~
+lwip-1.4.1/src/netif/etharp.c: In function 'etharp_query':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:1049:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("arp_table[i].state == PENDING or STABLE",
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:1069:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("q != NULL", q != NULL);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:1086:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("no packet queues allowed!", (p->len != p->tot_len) || (p->next == 0));
+       ^~~~~~~~~~~
+lwip-1.4.1/src/netif/etharp.c: In function 'etharp_raw':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:1189:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("netif != NULL", netif != NULL);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:1200:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("check that first pbuf can hold struct etharp_hdr",
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:1208:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("netif->hwaddr_len must be the same as ETHARP_HWADDR_LEN for etharp!",
+   ^~~~~~~~~~~
+lwip-1.4.1/src/netif/etharp.c: In function 'ethernet_input':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/netif/etharp.c:1359:9: note: in expansion of macro 'LWIP_ASSERT'
+         LWIP_ASSERT("Can't move over header in packet", 0);
+         ^~~~~~~~~~~
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/ipv4/ip_addr.c:39:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/ipv4/ip_addr.c:39:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/ipv4/ip_addr.c:39:
+lwip-1.4.1/src/core/ipv4/ip_addr.c: In function 'ipaddr_aton':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip_addr.c:243:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("unhandled", 0);
+     ^~~~~~~~~~~
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/ipv4/icmp.c:42:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/ipv4/icmp.c:42:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/ipv4/icmp.c:42:
+lwip-1.4.1/src/core/ipv4/icmp.c: In function 'icmp_input':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/icmp.c:152:9: note: in expansion of macro 'LWIP_ASSERT'
+         LWIP_ASSERT("icmp_input: moving p->payload to ip header failed\n", 0);
+         ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/icmp.c:161:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("check that first pbuf can hold struct the ICMP header",
+       ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/icmp.c:165:9: note: in expansion of macro 'LWIP_ASSERT'
+         LWIP_ASSERT("icmp_input: copying to new pbuf failed\n", 0);
+         ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/icmp.c:171:9: note: in expansion of macro 'LWIP_ASSERT'
+         LWIP_ASSERT("icmp_input: restoring original p->payload failed\n", 0);
+         ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/icmp.c:181:9: note: in expansion of macro 'LWIP_ASSERT'
+         LWIP_ASSERT("icmp_input: restoring original p->payload failed\n", 0);
+         ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/icmp.c:218:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("Can't move over header in packet", 0);
+       ^~~~~~~~~~~
+lwip-1.4.1/src/core/ipv4/icmp.c: In function 'icmp_send_response':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/icmp.c:306:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("check that first pbuf can hold icmp message",
+   ^~~~~~~~~~~
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/ipv4/igmp.c:80:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/ipv4/igmp.c:80:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/ipv4/inet.c:39:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/ipv4/inet.c:39:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/ipv4/inet_chksum.c:39:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/ipv4/inet_chksum.c:39:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/ipv4/inet_chksum.c:39:
+lwip-1.4.1/src/core/ipv4/inet_chksum.c: In function 'inet_chksum_pseudo_partial':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/inet_chksum.c:354:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("delete me", chksum_len < 0x7fff);
+     ^~~~~~~~~~~
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/ipv4/ip.c:41:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/ipv4/ip.c:41:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/ipv4/ip.c:41:
+lwip-1.4.1/src/core/ipv4/ip.c: In function 'ip_output_if':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip.c:668:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("p->ref == 1", p->ref == 1);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip.c:713:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("check that first pbuf can hold struct ip_hdr",
+     ^~~~~~~~~~~
+lwip-1.4.1/src/core/ipv4/ip.c: In function 'ip_output':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip.c:825:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("p->ref == 1", p->ref == 1);
+   ^~~~~~~~~~~
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/ipv4/ip_frag.c:41:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/ipv4/ip_frag.c:41:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/ipv4/ip_frag.c:41:
+lwip-1.4.1/src/core/ipv4/ip_frag.c: In function 'ip_reass_free_complete_datagram':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip_frag.c:165:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("prev != ipr", prev != ipr);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip_frag.c:167:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("prev->next == ipr", prev->next == ipr);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip_frag.c:182:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("pbufs_freed + clen <= 0xffff", pbufs_freed + clen <= 0xffff);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip_frag.c:198:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("pbufs_freed + clen <= 0xffff", pbufs_freed + clen <= 0xffff);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip_frag.c:204:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("ip_reass_pbufcount >= clen", ip_reass_pbufcount >= pbufs_freed);
+   ^~~~~~~~~~~
+lwip-1.4.1/src/core/ipv4/ip_frag.c: In function 'ip_reass_dequeue_datagram':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip_frag.c:313:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("sanity check linked list", prev != NULL);
+     ^~~~~~~~~~~
+lwip-1.4.1/src/core/ipv4/ip_frag.c: In function 'ip_reass_chain_frag_into_datagram_and_validate':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip_frag.c:347:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("sizeof(struct ip_reass_helper) <= IP_HLEN",
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip_frag.c:403:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("check fragments don't overlap", iprh_prev->end <= iprh->start);
+       ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip_frag.c:411:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("no previous fragment, this must be the first fragment!",
+       ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip_frag.c:444:11: note: in expansion of macro 'LWIP_ASSERT'
+           LWIP_ASSERT("sanity check", ipr->p != NULL);
+           ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip_frag.c:445:11: note: in expansion of macro 'LWIP_ASSERT'
+           LWIP_ASSERT("sanity check",
+           ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip_frag.c:447:11: note: in expansion of macro 'LWIP_ASSERT'
+           LWIP_ASSERT("validate_datagram:next_pbuf!=NULL",
+           ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip_frag.c:449:11: note: in expansion of macro 'LWIP_ASSERT'
+           LWIP_ASSERT("validate_datagram:datagram end!=datagram len",
+           ^~~~~~~~~~~
+lwip-1.4.1/src/core/ipv4/ip_frag.c: In function 'ip_frag_free_pbuf_custom_ref':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip_frag.c:633:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("p != NULL", p != NULL);
+   ^~~~~~~~~~~
+lwip-1.4.1/src/core/ipv4/ip_frag.c: In function 'ipfrag_free_pbuf_custom':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip_frag.c:643:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("pcr != NULL", pcr != NULL);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip_frag.c:644:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("pcr == p", (void*)pcr == (void*)p);
+   ^~~~~~~~~~~
+lwip-1.4.1/src/core/ipv4/ip_frag.c: In function 'ip_frag':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/ipv4/ip_frag.c:763:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("this needs a pbuf in one piece!",
+     ^~~~~~~~~~~
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/tcp.c:43:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/tcp.c:43:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/tcp.c:43:
+lwip-1.4.1/src/core/tcp.c: In function 'tcp_close_shutdown':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:178:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("pcb->flags & TF_RXCLOSED", pcb->flags & TF_RXCLOSED);
+       ^~~~~~~~~~~
+lwip-1.4.1/src/core/tcp.c: In function 'tcp_abandon':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:366:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("don't call tcp_abort/tcp_abandon for listen-pcbs",
+   ^~~~~~~~~~~
+lwip-1.4.1/src/core/tcp.c: In function 'tcp_update_rcv_ann_wnd':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:595:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("new_rcv_ann_wnd <= 0xffff", new_rcv_ann_wnd <= 0xffff);
+       ^~~~~~~~~~~
+lwip-1.4.1/src/core/tcp.c: In function 'tcp_recved':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:616:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("don't call tcp_recved for listen-pcbs",
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:618:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("tcp_recved: len would wrap rcv_wnd\n",
+   ^~~~~~~~~~~
+lwip-1.4.1/src/core/tcp.c: In function 'tcp_slowtmr':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:810:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("tcp_slowtmr: active pcb->state != CLOSED\n", pcb->state != CLOSED);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:811:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("tcp_slowtmr: active pcb->state != LISTEN\n", pcb->state != LISTEN);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:812:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("tcp_slowtmr: active pcb->state != TIME-WAIT\n", pcb->state != TIME_WAIT);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:954:9: note: in expansion of macro 'LWIP_ASSERT'
+         LWIP_ASSERT("tcp_slowtmr: middle tcp != tcp_active_pcbs", pcb != tcp_active_pcbs);
+         ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:958:9: note: in expansion of macro 'LWIP_ASSERT'
+         LWIP_ASSERT("tcp_slowtmr: first pcb == tcp_active_pcbs", tcp_active_pcbs == pcb);
+         ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:1006:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("tcp_slowtmr: TIME-WAIT pcb->state == TIME-WAIT", pcb->state == TIME_WAIT);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:1022:9: note: in expansion of macro 'LWIP_ASSERT'
+         LWIP_ASSERT("tcp_slowtmr: middle tcp != tcp_tw_pcbs", pcb != tcp_tw_pcbs);
+         ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:1026:9: note: in expansion of macro 'LWIP_ASSERT'
+         LWIP_ASSERT("tcp_slowtmr: first pcb == tcp_tw_pcbs", tcp_tw_pcbs == pcb);
+         ^~~~~~~~~~~
+lwip-1.4.1/src/core/tcp.c: In function 'tcp_recv':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:1394:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("invalid socket state for recv callback", pcb->state != LISTEN);
+   ^~~~~~~~~~~
+lwip-1.4.1/src/core/tcp.c: In function 'tcp_sent':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:1408:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("invalid socket state for sent callback", pcb->state != LISTEN);
+   ^~~~~~~~~~~
+lwip-1.4.1/src/core/tcp.c: In function 'tcp_err':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:1423:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("invalid socket state for err callback", pcb->state != LISTEN);
+   ^~~~~~~~~~~
+lwip-1.4.1/src/core/tcp.c: In function 'tcp_poll':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:1454:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("invalid socket state for poll", pcb->state != LISTEN);
+   ^~~~~~~~~~~
+lwip-1.4.1/src/core/tcp.c: In function 'tcp_pcb_remove':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:1553:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("unsent segments leaking", pcb->unsent == NULL);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:1554:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("unacked segments leaking", pcb->unacked == NULL);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:1556:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("ooseq segments leaking", pcb->ooseq == NULL);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp.c:1562:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("tcp_pcb_remove: tcp_pcbs_sane()", tcp_pcbs_sane());
+   ^~~~~~~~~~~
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/tcp_in.c:44:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/tcp_in.c:44:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/tcp_in.c:44:
+lwip-1.4.1/src/core/tcp_in.c: In function 'tcp_input':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:171:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("tcp_input: active pcb->state != CLOSED", pcb->state != CLOSED);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:172:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("tcp_input: active pcb->state != TIME-WAIT", pcb->state != TIME_WAIT);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:173:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("tcp_input: active pcb->state != LISTEN", pcb->state != LISTEN);
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:182:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("tcp_input: pcb->next != pcb (before cache)", pcb->next != pcb);
+       ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:188:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("tcp_input: pcb->next != pcb (after cache)", pcb->next != pcb);
+       ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:198:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("tcp_input: TIME-WAIT pcb->state == TIME-WAIT", pcb->state == TIME_WAIT);
+       ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:340:11: note: in expansion of macro 'LWIP_ASSERT'
+           LWIP_ASSERT("pcb->refused_data == NULL", pcb->refused_data == NULL);
+           ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:418:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("tcp_input: tcp_pcbs_sane()", tcp_pcbs_sane());
+   ^~~~~~~~~~~
+lwip-1.4.1/src/core/tcp_in.c: In function 'tcp_process':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:599:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("tcp_input: pcb->state != CLOSED", pcb->state != CLOSED);
+       ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:652:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("pcb->snd_queuelen > 0", (pcb->snd_queuelen > 0));
+       ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:691:9: note: in expansion of macro 'LWIP_ASSERT'
+         LWIP_ASSERT("pcb->accept != NULL", pcb->accept != NULL);
+         ^~~~~~~~~~~
+lwip-1.4.1/src/core/tcp_in.c: In function 'tcp_receive':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:864:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("tcp_receive: wrong state", pcb->state >= ESTABLISHED);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:1020:9: note: in expansion of macro 'LWIP_ASSERT'
+         LWIP_ASSERT("pcb->snd_queuelen >= pbuf_clen(next->p)", (pcb->snd_queuelen >= pbuf_clen(next->p)));
+         ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:1031:11: note: in expansion of macro 'LWIP_ASSERT'
+           LWIP_ASSERT("tcp_receive: valid queue length", pcb->unacked != NULL ||
+           ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:1070:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("pcb->snd_queuelen >= pbuf_clen(next->p)", (pcb->snd_queuelen >= pbuf_clen(next->p)));
+       ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:1079:9: note: in expansion of macro 'LWIP_ASSERT'
+         LWIP_ASSERT("tcp_receive: valid queue length",
+         ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:1174:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("inseg.p != NULL", inseg.p);
+       ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:1175:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("insane offset!", (off < 0x7fff));
+       ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:1177:9: note: in expansion of macro 'LWIP_ASSERT'
+         LWIP_ASSERT("pbuf too short!", (((s32_t)inseg.p->tot_len) >= off));
+         ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:1190:11: note: in expansion of macro 'LWIP_ASSERT'
+           LWIP_ASSERT("pbuf_header failed", 0);
+           ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:1195:11: note: in expansion of macro 'LWIP_ASSERT'
+           LWIP_ASSERT("pbuf_header failed", 0);
+           ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:1239:11: note: in expansion of macro 'LWIP_ASSERT'
+           LWIP_ASSERT("tcp_receive: segment not trimmed correctly to rcv_wnd\n",
+           ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:1287:15: note: in expansion of macro 'LWIP_ASSERT'
+               LWIP_ASSERT("tcp_receive: segment not trimmed correctly to ooseq queue\n",
+               ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:1298:9: note: in expansion of macro 'LWIP_ASSERT'
+         LWIP_ASSERT("tcp_receive: tcplen > rcv_wnd\n", pcb->rcv_wnd >= tcplen);
+         ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:1334:11: note: in expansion of macro 'LWIP_ASSERT'
+           LWIP_ASSERT("tcp_receive: ooseq tcplen > rcv_wnd\n",
+           ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_in.c:1481:21: note: in expansion of macro 'LWIP_ASSERT'
+                     LWIP_ASSERT("tcp_receive: segment not trimmed correctly to rcv_wnd\n",
+                     ^~~~~~~~~~~
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/tcp_out.c:41:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/tcp_out.c:41:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/tcp_out.c:41:
+lwip-1.4.1/src/core/tcp_out.c: In function 'tcp_output_alloc_header':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_out.c:109:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("check that first pbuf can hold struct tcp_hdr",
+     ^~~~~~~~~~~
+lwip-1.4.1/src/core/tcp_out.c: In function 'tcp_write_checks':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_out.c:337:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("tcp_write: pbufs on queue => at least one queue non-empty",
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_out.c:340:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("tcp_write: no pbufs on queue => both queues empty",
+     ^~~~~~~~~~~
+lwip-1.4.1/src/core/tcp_out.c: In function 'tcp_write':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_out.c:548:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("tcp_write: check that first pbuf can hold the complete seglen",
+       ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_out.c:612:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("prev_seg != NULL", prev_seg != NULL);
+       ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_out.c:659:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("tcp_write: cannot concatenate when pcb->unsent is empty",
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_out.c:692:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("tcp_write: valid queue length",
+     ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_out.c:713:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("tcp_write: valid queue length", pcb->unacked != NULL ||
+     ^~~~~~~~~~~
+lwip-1.4.1/src/core/tcp_out.c: In function 'tcp_enqueue_flags':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_out.c:740:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("tcp_enqueue_flags: need either TCP_SYN or TCP_FIN in flags (programmer violates API)",
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_out.c:778:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("tcp_enqueue_flags: check that first pbuf can hold optlen",
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_out.c:787:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("seg->tcphdr not aligned", ((mem_ptr_t)seg->tcphdr % MEM_ALIGNMENT) == 0);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_out.c:788:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("tcp_enqueue_flags: invalid segment length", seg->len == 0);
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_out.c:823:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("tcp_enqueue_flags: invalid queue length",
+     ^~~~~~~~~~~
+lwip-1.4.1/src/core/tcp_out.c: In function 'tcp_output':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_out.c:916:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("don't call tcp_output for listen-pcbs",
+   ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_out.c:973:5: note: in expansion of macro 'LWIP_ASSERT'
+     LWIP_ASSERT("RST not expected here!",
+     ^~~~~~~~~~~
+lwip-1.4.1/src/core/tcp_out.c: In function 'tcp_rst':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/tcp_out.c:1215:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("check that first pbuf can hold struct tcp_hdr",
+   ^~~~~~~~~~~
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/udp.c:49:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/udp.c:49:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/udp.c:49:
+lwip-1.4.1/src/core/udp.c: In function 'udp_input':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/udp.c:344:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("pbuf_header failed\n", 0);
+       ^~~~~~~~~~~
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/udp.c:419:9: note: in expansion of macro 'LWIP_ASSERT'
+         LWIP_ASSERT("p->payload == iphdr", (p->payload == iphdr));
+         ^~~~~~~~~~~
+lwip-1.4.1/src/core/udp.c: In function 'udp_sendto_if':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/udp.c:609:3: note: in expansion of macro 'LWIP_ASSERT'
+   LWIP_ASSERT("check that first pbuf can hold struct udp_hdr",
+   ^~~~~~~~~~~
+lwip-1.4.1/src/core/udp.c: In function 'udp_bind':
+../../../include/lwip/debug.h:67:32: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+   LWIP_PLATFORM_ASSERT(message); } while(0)
+                                ^
+lwip-1.4.1/src/core/udp.c:781:7: note: in expansion of macro 'LWIP_ASSERT'
+       LWIP_ASSERT("rebind == 0", rebind == 0);
+       ^~~~~~~~~~~
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/dhcp.c:69:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from lwip-1.4.1/src/core/dhcp.c:69:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from contrib/ports/xilinx/sys_arch_raw.c:44:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from contrib/ports/xilinx/sys_arch_raw.c:44:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from ../../../include/lwip/mem.h:35,
+                 from contrib/ports/xilinx/netif/xadapter.c:43:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from ../../../include/lwip/mem.h:35,
+                 from contrib/ports/xilinx/netif/xadapter.c:43:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from contrib/ports/xilinx/netif/xadapter.c:55:
+../../../include/netif/xemacliteif.h:43:10: fatal error: xemaclite.h: No such file or directory
+ #include "xemaclite.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [Makefile:57: xadapter.o] Error 1
+In file included from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from contrib/ports/xilinx/netif/xemacliteif.c:71:
+../../../include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from contrib/ports/xilinx/netif/xemacliteif.c:68:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+"Running Make libs in microblaze_0/libsrc/spi_v4_4/src"
+In file included from contrib/ports/xilinx/netif/xemacliteif.c:80:
+make -C microblaze_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+../../../include/netif/xemacliteif.h:43:10: fatal error: xemaclite.h: No such file or directory
+ #include "xemaclite.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [Makefile:57: xemacliteif.o] Error 1
+"Compiling spi"
+make[1]: Target 'libs' not remade because of errors.
+make: *** [Makefile:30: microblaze_0/libsrc/lwip141_v1_6/src/make.libs] Error 2
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartns550_v3_5/src"
+make -C microblaze_0/libsrc/uartns550_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartns550"
+xuartns550_g.c:49:2: warning: missing initializer for field 'DefaultBaudRate' of 'XUartNs550_Config' {aka 'struct <anonymous>'} [-Wmissing-field-initializers]
+  }
+  ^
+In file included from xuartns550_g.c:37:
+xuartns550.h:319:6: note: 'DefaultBaudRate' declared here
+  u32 DefaultBaudRate; /**< Baud Rate in bps, ie 1200 */
+      ^~~~~~~~~~~~~~~
+make: Target 'all' not remade because of errors.
+20:00:59 **** Build of configuration Debug for project pr_app ****
+make all 
+'Building file: ../src/pr_tftp_lib/pr_tftp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I../../pr_bsp/microblaze_0/include -I"C:\Users\HQ_home\Desktop\Git\PR_VCU128_SDK\pr_app\src" -I"C:\Users\HQ_home\Desktop\Git\PR_VCU128_SDK\pr_app\src\pr_tftp_lib" -c -fmessage-length=0 -MT"src/pr_tftp_lib/pr_tftp.o" -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pr_tftp_lib/pr_tftp.d" -MT"src/pr_tftp_lib/pr_tftp.o" -o "src/pr_tftp_lib/pr_tftp.o" "../src/pr_tftp_lib/pr_tftp.c"
+In file included from ../../pr_bsp/microblaze_0/include/lwip/arch.h:43,
+                 from ../../pr_bsp/microblaze_0/include/lwip/debug.h:35,
+                 from ../../pr_bsp/microblaze_0/include/lwip/opt.h:46,
+                 from ../../pr_bsp/microblaze_0/include/lwip/tcp.h:35,
+                 from ../src/pr_tftp_lib/pr_tftp.h:36,
+                 from ../src/pr_tftp_lib/pr_tftp.c:33:
+../../pr_bsp/microblaze_0/include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../pr_bsp/microblaze_0/include/arch/cc.h:55,
+                 from ../../pr_bsp/microblaze_0/include/lwip/arch.h:43,
+                 from ../../pr_bsp/microblaze_0/include/lwip/debug.h:35,
+                 from ../../pr_bsp/microblaze_0/include/lwip/opt.h:46,
+                 from ../../pr_bsp/microblaze_0/include/lwip/tcp.h:35,
+                 from ../src/pr_tftp_lib/pr_tftp.h:36,
+                 from ../src/pr_tftp_lib/pr_tftp.c:33:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+'Finished building: ../src/pr_tftp_lib/pr_tftp.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I../../pr_bsp/microblaze_0/include -I"C:\Users\HQ_home\Desktop\Git\PR_VCU128_SDK\pr_app\src" -I"C:\Users\HQ_home\Desktop\Git\PR_VCU128_SDK\pr_app\src\pr_tftp_lib" -c -fmessage-length=0 -MT"src/main.o" -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../pr_bsp/microblaze_0/include/lwip/arch.h:43,
+                 from ../../pr_bsp/microblaze_0/include/lwip/debug.h:35,
+                 from ../../pr_bsp/microblaze_0/include/lwip/opt.h:46,
+                 from ../../pr_bsp/microblaze_0/include/lwip/tcp.h:35,
+                 from C:\Users\HQ_home\Desktop\Git\PR_VCU128_SDK\pr_app\src\pr_tftp_lib/pr_tftp.h:36,
+                 from ../src/main.c:87:
+../../pr_bsp/microblaze_0/include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../src/main.c:85:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+In file included from ../src/main.c:92:
+../src/main.c: In function 'main':
+../src/platform_config.h:5:32: error: 'XPAR_ETHERNET_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_AXIETHERNET_0_BASEADDR'?
+ #define PLATFORM_EMAC_BASEADDR XPAR_ETHERNET_BASEADDR
+                                ^~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:305:38: note: in expansion of macro 'PLATFORM_EMAC_BASEADDR'
+                  MacEthernetAddress, PLATFORM_EMAC_BASEADDR)) {
+                                      ^~~~~~~~~~~~~~~~~~~~~~
+../src/platform_config.h:5:32: note: each undeclared identifier is reported only once for each function it appears in
+ #define PLATFORM_EMAC_BASEADDR XPAR_ETHERNET_BASEADDR
+                                ^~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:305:38: note: in expansion of macro 'PLATFORM_EMAC_BASEADDR'
+                  MacEthernetAddress, PLATFORM_EMAC_BASEADDR)) {
+                                      ^~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:29: src/main.o] Error 1
+20:04:20 **** Auto Build of configuration Debug for project pr_app ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I../../pr_bsp/microblaze_0/include -I"C:\Users\HQ_home\Desktop\Git\PR_VCU128_SDK\pr_app\src" -I"C:\Users\HQ_home\Desktop\Git\PR_VCU128_SDK\pr_app\src\pr_tftp_lib" -c -fmessage-length=0 -MT"src/main.o" -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../pr_bsp/microblaze_0/include/lwip/arch.h:43,
+                 from ../../pr_bsp/microblaze_0/include/lwip/debug.h:35,
+                 from ../../pr_bsp/microblaze_0/include/lwip/opt.h:46,
+                 from ../../pr_bsp/microblaze_0/include/lwip/tcp.h:35,
+                 from C:\Users\HQ_home\Desktop\Git\PR_VCU128_SDK\pr_app\src\pr_tftp_lib/pr_tftp.h:36,
+                 from ../src/main.c:87:
+../../pr_bsp/microblaze_0/include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../src/main.c:85:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I../../pr_bsp/microblaze_0/include -I"C:\Users\HQ_home\Desktop\Git\PR_VCU128_SDK\pr_app\src" -I"C:\Users\HQ_home\Desktop\Git\PR_VCU128_SDK\pr_app\src\pr_tftp_lib" -c -fmessage-length=0 -MT"src/platform.o" -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+In file included from ../src/platform.c:33:
+../../pr_bsp/microblaze_0/include/arch/cc.h:66: warning: "BYTE_ORDER" redefined
+ #define BYTE_ORDER LITTLE_ENDIAN
+ 
+In file included from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\sys\types.h:67,
+                 from c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:61,
+                 from ../../pr_bsp/microblaze_0/include/arch/cc.h:55,
+                 from ../src/platform.c:33:
+c:\xilinx\sdk\2019.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\machine\endian.h:20: note: this is the location of the previous definition
+ #define BYTE_ORDER _BYTE_ORDER
+ 
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I../../pr_bsp/microblaze_0/include -I"C:\Users\HQ_home\Desktop\Git\PR_VCU128_SDK\pr_app\src" -I"C:\Users\HQ_home\Desktop\Git\PR_VCU128_SDK\pr_app\src\pr_tftp_lib" -c -fmessage-length=0 -MT"src/platform_mb.o" -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building target: pr_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "pr_app.elf"  ./src/pr_tftp_lib/pr_tftp.o  ./src/main.o ./src/platform.o ./src/platform_mb.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: cannot find -llwip4
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:39: pr_app.elf] Error 1
+20:04:59 **** Incremental Build of configuration Debug for project pr_app ****
+make all 
+'Building target: pr_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pr_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "pr_app.elf"  ./src/pr_tftp_lib/pr_tftp.o  ./src/main.o ./src/platform.o ./src/platform_mb.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2019.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/8.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: cannot find -llwip4
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:39: pr_app.elf] Error 1
